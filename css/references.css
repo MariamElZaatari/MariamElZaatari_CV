@@ -8,15 +8,22 @@ body, html{
 hr{
     width: 85%;
 }
+h2 hr{
+    width:61%;
+}
 h2{
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3d3d3d;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #e3cfd0;
     margin: 0;
     padding: 34px;
+    letter-spacing: 0.4em;
+    font-size: 40px;
 }
 
 .container{
