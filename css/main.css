@@ -5,11 +5,10 @@
     letter-spacing: 0.2em;
     margin-bottom: 17px;
 }
-hr{
-    margin-right: 19%;
-}
+
 .leftHr{
-    width:30%;
+    width: 73%;
+    border-color: black;
 }
 ul{
     list-style:none;
@@ -21,16 +20,20 @@ ul{
 }
 #leftSection{
     width: 35%;
+    background-color: #e3cfd0;
 }
 #rightSection{
     width: 65%;
+}
+#rightSection table{
+    margin-bottom: 18%;
 }
 .button{
     float: right;
     width: 30%;
 }
 .education{
-    margin-left: 15%;
+    margin-left: 9%;
 }
 .education h4{
     margin-bottom: 0;
@@ -47,41 +50,48 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-bottom: 0;
+    margin-top: 11px;
 }
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    color: rgb(165 114 114 / 90%);
+    margin-bottom: 0px;
+}
+.banner h2{
+    color:#d1cecf;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
     letter-spacing: 0.2em;
+    color:#d1cecf;
+    margin-bottom: 2%;
 }
 img{
     width:60%;
     height:60%;
     margin-left: 20%;
     margin-bottom: 4%;
-    border: 2px solid white;
     box-shadow: 5px 6px 8px #9d9d9d;
 }
 .skills{
     padding-left: 0;
+    padding-top: 2%;
 }
 .skills li{
-    background-color: rgb(107, 15, 15);
+    background-color: rgb(165 114 114 / 90%);
     padding: 7px;
     width: fit-content;
     margin: 2px;
     border-radius: 7px;
-    border: 1px solid black;
     color: white;
     float: left;
 }
 button{
     float: right;
     text-align: center;
-    background-color: #000000;
+    background-color: #3d3d3d;
     border: 1px solid #b6b5b5;
     border-radius: 11px;
     color: white;
@@ -89,7 +99,9 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 2px 2px 8px #9d9d9d;
 }
-
+.skillsHeading{
+    color: #3d3d3d;
+}
 button:hover {
     background-color: white;
     color: #000000;
@@ -99,4 +111,13 @@ button:hover {
 button:active {
   background-color: #e3cfd0;
   color: #413839;
+}
+.banner{
+    background-color: #3d3d3d;
+    display: block;
+    width:100%;
+}
+.date{
+    color:gray;
+    font-size:16px;
 }
