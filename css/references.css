@@ -2,17 +2,21 @@ body, html{
     margin: 10px 0 0 0;
     padding: 0px;
     text-align: center;
+    background-color: #3d3d3d;;
 }
 
 hr{
     width: 85%;
 }
-.title{
+h2{
     font-size: 30px;
     margin-bottom: 20px;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e3cfd0;
+    margin: 0;
+    padding: 34px;
 }
 
 .container{
@@ -33,6 +37,7 @@ h1{
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
+    background-color: white;
 }
 .certificate:nth-child(1){
     box-shadow: 2px 2px 5px #FF6363;
