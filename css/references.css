@@ -33,5 +33,18 @@ h1{
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
-
 }
+.certificate:nth-child(1){
+    box-shadow: 2px 2px 5px #FF6363;
+    border-color: #FF6363;
+    }
+    
+    .certificate:nth-child(2){
+    box-shadow: 2px 2px 5px #7579E7;
+    border-color: #7579E7;
+    }
+    
+    .certificate:nth-child(3){
+    box-shadow: 2px 2px 5px #95CD41;
+    border-color: #95CD41;
+    } 
