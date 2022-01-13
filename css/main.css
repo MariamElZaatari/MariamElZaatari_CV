@@ -18,3 +18,7 @@ ul{
 #rightSection{
     width: 65%;
 }
+.button{
+    float: right;
+    width: 30%;
+}
