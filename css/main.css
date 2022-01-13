@@ -78,3 +78,25 @@ img{
     color: white;
     float: left;
 }
+button{
+    float: right;
+    text-align: center;
+    background-color: #000000;
+    border: 1px solid #b6b5b5;
+    border-radius: 11px;
+    color: white;
+    padding: 1.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 2px 8px #9d9d9d;
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+    box-shadow: 5px 6px 8px #9d9d9d;
+}
+
+button:active {
+  background-color: #e3cfd0;
+  color: #413839;
+}
