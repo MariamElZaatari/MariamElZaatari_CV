@@ -5,6 +5,9 @@
     letter-spacing: 0.2em;
     margin-bottom: 17px;
 }
+hr{
+    margin-right: 19%;
+}
 .leftHr{
     width:30%;
 }
@@ -49,6 +52,11 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+}
 img{
     width:60%;
     height:60%;
@@ -56,4 +64,17 @@ img{
     margin-bottom: 4%;
     border: 2px solid white;
     box-shadow: 5px 6px 8px #9d9d9d;
+}
+.skills{
+    padding-left: 0;
+}
+.skills li{
+    background-color: rgb(107, 15, 15);
+    padding: 7px;
+    width: fit-content;
+    margin: 2px;
+    border-radius: 7px;
+    border: 1px solid black;
+    color: white;
+    float: left;
 }
