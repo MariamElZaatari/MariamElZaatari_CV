@@ -4,7 +4,17 @@
     font-weight: normal;
     letter-spacing: 0.2em;
 }
-
 ul{
     list-style:none;
+}
+#mainTable{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#leftSection{
+    width: 35%;
+}
+#rightSection{
+    width: 65%;
 }
